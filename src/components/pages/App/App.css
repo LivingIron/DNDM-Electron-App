@@ -1,10 +1,32 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
 
 @font-face {
     font-family: 'Mulish-Black';
     src: url('../../../assets/fonts/Mulish-Black.ttf');
 }
-h1{
-    color: blue;
+
+
+.main-app-wrapper__title{
     font-family: "Mulish-Black";
+    font-size ;
+}
+
+.main-app-wrapper{
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    position: fixed;
+    width: auto;
+    height: auto;
 }
