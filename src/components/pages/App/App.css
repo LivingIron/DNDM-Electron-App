@@ -1,0 +1,10 @@
+
+
+@font-face {
+    font-family: 'Mulish-Black';
+    src: url('../../../assets/fonts/Mulish-Black.ttf');
+}
+h1{
+    color: blue;
+    font-family: "Mulish-Black";
+}
